@@ -1,9 +1,8 @@
 import React from "react";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Features from "./components/Features";
-import Footer from "./components/Footer";
-
+import Header from "./components/Header.jsx";
+import Hero from "./components/Hero.jsx";
+import Features from "./components/Features.jsx";
+import Footer from "./components/Footer.jsx";
 const App = () => {
   return (
     <>
