@@ -1,0 +1,84 @@
+/* Header Styles */
+header {
+  /* background-color: #f8f9fa; */
+  padding: 10px 0;
+}
+
+header h1 {
+  font-size: 24px;
+  color: #343a40;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+header a {
+  text-decoration: none;
+  color: #000000;
+  transition: all 0.3s ease;
+}
+
+header a:hover {
+  font-size: large;
+  color: #f2ff008d;
+}
+
+/* Hero Section */
+section {
+  padding: 20px 0;
+  gap: 2px;
+}
+strong {
+  font-size: 25px;
+}
+
+section img {
+  max-width: 36%;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+/* Features Section */
+.feature-card {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  /* border: 1px solid #ddd; */
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+  flex: 1;
+}
+
+.feature-card h3 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.feature-card p {
+  color: #495057;
+}
+
+/* Footer */
+footer {
+  background: rgba(255, 255, 255, 0.284);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer p {
+  margin: 0;
+}
